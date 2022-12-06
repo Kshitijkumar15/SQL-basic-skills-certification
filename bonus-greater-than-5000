@@ -1,0 +1,3 @@
+select employee_ID,name
+from employee_information natural join last_quarter_bonus
+where  division='HR'and bonus >=5000;
